@@ -1,0 +1,28 @@
+:root {
+  --color-bg: #000000;
+  --color-fg: #ffffff;
+  --font-size: 12px;
+  --line-height: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  overflow: hidden;
+}
+
+#donut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
